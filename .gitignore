@@ -1,0 +1,18 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# data
+*.csv
+*.parquet
+*.xlsx
+
+# OS
+.DS_Store
+Thumbs.db
