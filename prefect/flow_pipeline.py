@@ -22,5 +22,7 @@ def pipeline():
     run_airbyte()
     run_dbt()
 
+    print(" Pipeline ejecutado correctamente")
+
 if __name__ == "__main__":
     pipeline()
